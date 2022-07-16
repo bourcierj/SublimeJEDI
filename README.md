@@ -29,7 +29,7 @@ Installation
 
 #### with [Sublime Package Control](http://wbond.net/sublime_packages/package_control)
 
- 1. Open command pallet (default: `ctrl+shift+p`)
+ 1. Open command pallet (default: `CTRL+SHIFT+P`)
  2. Type `package control install` and select command `Package Control: Install Package`
  3. Type `Jedi` and select `Jedi - Python autocompletion`
 
@@ -320,7 +320,7 @@ Some workarounds how to update the completion rules and fix the issue:
 ##### There is package for this...
 
 1. install Package https://packagecontrol.io/packages/PackageResourceViewer
-2. cmd+shift+p (Command Palette)
+2. open Command Palette (`CMD+SHIFT+P`)
 3. type `PackageResourceViewer: Open Resource`
 4. type `python` and select Python package
 5. type `Completion Rules.tmPreferences`
