@@ -294,7 +294,7 @@ If you need get more information about the issue with the plugin:
 
 1. Install [Logging Control](https://packagecontrol.io/packages/Logging%20Control)
 2. Use *quickstart* config that was provided above.
-3. Enable logging. Invoke "Command Palette" (CMD+SHIFT+P for mac) and start typing “Logging”. Select the `"Logging: Enable logging"` command to enable logging.
+3. Enable logging. Open Command Palette (CMD+SHIFT+P for mac) and start typing “Logging”. Select the `"Logging: Enable logging"` command to enable logging.
 4. Reproduce the issue.
 5. Check the log file!
 
@@ -306,7 +306,7 @@ Troubleshooting
 
 It's a common issue for ST3.
 All language related settings are stored in Python Package.
-There is a `Completion Rules.tmPreferences` file that defines where that completion should be cancelled after a keyword (def, class, import & etc.).
+There is a `Completion Rules.tmPreferences` file that defines where completion should be cancelled after a keyword (def, class, import & etc.).
 
 To solve this issue Sublime Jedi plugin already has a proper `Completion Rules.tmPreferences` file for ST2, but ST3 ignores it.
 
