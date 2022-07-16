@@ -80,7 +80,7 @@ please set `enable_in_sublime_repl: true` in `User/sublime_jedi.sublime-setting`
 
 #### Autocomplete on DOT
 
-If you want auto-completion on dot, you can define a trigger in the
+If you want autocompletion on dot, you can define a trigger in the
 Sublime User or Python preferences:
 
     # User/Preferences.sublime-settings or User/Python.sublime-settings
@@ -89,7 +89,7 @@ Sublime User or Python preferences:
         "auto_complete_triggers": [{"selector": "source.python", "characters": "."}],
     }
 
-If you want auto-completion **ONLY** on dot and not while typing, you can
+If you want autocompletion **ONLY** on dot and not while typing, you can
 set (additionally to the trigger above):
 
 
@@ -102,9 +102,9 @@ set (additionally to the trigger above):
 
 #### Autocomplete after only certain characters
 
-If you want Jedi auto-completion only after certain characters, you can use the `only_complete_after_regex` setting.
+If you want Jedi autocompletion only after certain characters, you can use the `only_complete_after_regex` setting.
 
-For example, if you want Jedi auto-completion only after the `.` character but don't want to affect auto-completion from other packages, insert the following into `User/sublime_jedi.sublime-settings`:
+For example, if you want Jedi autocompletion only after the `.` character but don't want to affect autocompletion from other packages, insert the following into `User/sublime_jedi.sublime-settings`:
 
 ~~~json
 {
@@ -112,7 +112,7 @@ For example, if you want Jedi auto-completion only after the `.` character but d
 }
 ~~~
 
-Using this setting in this way means you can remove `"auto_complete_selector": "-",` from `User/Python.sublime-settings`, so that the rest of your packages still triggers auto-completion after every keystroke.
+Using this setting in this way means you can remove `"auto_complete_selector": "-",` from `User/Python.sublime-settings`, so that the rest of your packages still triggers autocompletion after every keystroke.
 
 
 #### Goto / Goto Definition
@@ -302,7 +302,7 @@ If you need get more information about the issue with the plugin:
 Troubleshooting
 ---------------
 
-#### Auto-complete for `import XXXX` does not works.
+#### Autocomplete for `import XXXX` does not works.
 
 It's a common issue for ST3.
 All language related settings are stored in Python Package.
